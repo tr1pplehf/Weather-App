@@ -16,7 +16,7 @@ body {
     border-radius: 20px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-   
+
 }
 
 .search {
@@ -43,4 +43,42 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.temp {
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.city {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 80px;
+}
+
+.humidity, .wind {
+    font-size: 20px;
 }
